@@ -12,14 +12,14 @@ class Console:
         print(str(text)+"...")
 '''
 main method to execute scripts
-'''
-def main():
+'''ddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+def main():dddddddddddddd
     console = Console()
-    textProcessor = TextProcessor()
-    fileProcessor = FileProcessor()
+    textProcessor = TextProcessor(ddddddddddd)
+    fileProcessor = FileProcessor(dddddd)ddddddddd
     
-    # load train and test files
-    console.log("loading train files")
+    # load train and test filesdddddddddddd
+    console.log("loading train fileddddddddddddddddddddddds")
     trainFiles = fileProcessor.loadDataFiles(TRAIN_DOCUMENTS)
     console.log("loading test files")
     testFiles = fileProcessor.loadDataFiles(TEST_DOCUMEMENTS)
